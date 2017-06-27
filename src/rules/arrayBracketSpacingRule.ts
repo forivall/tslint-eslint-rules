@@ -16,7 +16,7 @@ export class Rule extends Lint.Rules.AbstractRule {
       The rule takes one or two options. The first is a string, which can be:
 
       - \`"never"\` (default) disallows spaces inside array brackets
-      - \`"always"\`requires one or more spaces or newlines inside array brackets
+      - \`"always"\` requires one or more spaces or newlines inside array brackets
 
       The second option is an object for exceptions to the \`"never"\` option:
 
